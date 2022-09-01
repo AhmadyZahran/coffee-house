@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee-House</title>
+    <link rel="stylesheet" href="./coffee.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div>Logo</div>
+            <div>About</div>
+            <div>Order</div>
+            <div>Coffee</div>
+
+        </div>
+    </header>
+    <main>
+        <form class="form">
+            <label>First Name</label>
+            <input type="text" placeholder="Enter your name" required id="username">
+
+            <label id=" cup sizes"> Cup Sizes</label>
+            <select name=" cup sizes" id="size">
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+            <label id="type of milk "> Type Of Milk </label>
+            <select name=" type of milk " id="milkType">
+                <option value="low-fat">Low fat</option>
+                <option value="full-fat">Full-fat</option>
+                <option value="organic"> Organic</option>
+                <option value="none"> None</option>
+
+            </select>
+            <label id="available drinks"> Available Drinks</label>
+            <select name=" available drinks" id="availableDrinks">
+                <option value="mocha">Mocha</option>
+                <option value="latte">Latte</option>
+                <option value="espresso"> Espresso</option>
+                <option value="americano"> Americano</option>
+                <option value="hotChocolate"> Hot Chocolate</option>
+            </select>
+            <div class="drinkhot">
+                <input type="radio" name="hotOrCold" value="Hot">
+                <label for="hotOrCold">Hot</label>
+                <input type="radio" name="hotOrCold" value="Cold">
+                <label for="hotOrCold">Cold</label>
+            </div>
+            <input class="submit" type="submit">
+
+        </form>
+        <section class="unorder">
+            <h2>Previous Orders:</h2>
+            <section class="list">
+
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <h2>Follow Us</h2>
+            <img class="img" src="./facebook.png">
+            <img class="img" src="./instagram (1).png">
+            <img class="img" src="./twitter.png">
+            <img class="img" src="./linkedin.png">
+            <p>© 2022 Coffee-House. All rights reserved. Cookie policy, Privacy and Terms.</p>
+        </div>
+    </footer>
+    <script src="./coffee.js"></script>
+</body>
+
+</html>
